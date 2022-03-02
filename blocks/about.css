@@ -22,13 +22,17 @@
 
 .about__title {
   z-index: 1;
+  margin-top: 100px;
+  margin-left: 80px;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
-  padding-top: 100px;
-  padding-left: 80px;
-  margin: 0;
+  top: 100px;
+  left: 80px;
+}
+
+span {
   display: block;
 }
 
@@ -59,8 +63,8 @@
   height: 495px;
   border-radius: 50%;
   position: absolute;
-  left: -210px;
-  top: -202px;
+  left: -192px;
+  top: -200px;
   z-index: 0;
 }
 
