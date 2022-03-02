@@ -18,6 +18,7 @@
 }
 
 .header__span-accent {
+  display: block;
   font-family: Noto serif;
   font-style: italic;
   font-weight: normal;
