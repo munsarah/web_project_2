@@ -35,17 +35,20 @@
 
 .form__label {
   display: block;
+  margin-bottom: 8px;
+  margin-top: 32px;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-  margin-bottom: 8px;
-  margin-top: 32px;
 }
 
 .form__label[for="terms"] {
-  display: inline;
-  margin-left: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: center;
+  gap: 12px;
 }
 
 .form__input {
@@ -66,7 +69,7 @@
   line-height: 30px;
 }
 
-.form__input[type="number"]::placeholder {
+.form__input[type="date"]::placeholder {
   color: #000000;
 }
 
@@ -94,8 +97,5 @@
 
 .form__checkbox {
   border-radius: 2px;
-  size: 20px 20px;
-  min-width: 8px;
-  min-height: 8px;
-  padding-right: 12px;
+  size: 20px;
 }

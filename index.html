@@ -207,7 +207,7 @@
                 >Number of guests *</label
               >
               <input
-                type="text"
+                type="number"
                 class="form__input"
                 id="no_of_guests"
                 name="no_of_guests"
@@ -222,7 +222,6 @@
                 class="form__input"
                 id="date"
                 name="date"
-                placeholder="dd.mm.yyyy"
                 required
               />
               <label for="email" class="form__label">Your email *</label>
@@ -231,20 +230,22 @@
                 class="form__input"
                 id="email"
                 name="Email"
-                placeholder="email@example.com"
+                placeholder="email@email.com"
+                required
               />
-              <button type="button" class="form__button">Book a table</button>
-
-              <label for="terms" class="form__label">
-                <input
-                  type="checkbox"
-                  name="terms"
-                  id="terms"
-                  value="checkbox"
-                  class="form__checkbox"
-                />
-                I agree with the terms of use
-              </label>
+              <button type="submit" class="form__button">Book a table</button>
+              <div class="form__terms">
+                <label for="terms" class="form__label">
+                  <input
+                    type="checkbox"
+                    name="terms"
+                    id="terms"
+                    value=""
+                    class="form__checkbox"
+                  />
+                  I agree with the terms of use
+                </label>
+              </div>
             </fieldset>
           </form>
         </div>
