@@ -21,8 +21,6 @@
 }
 
 .about__title {
-  top: 100px;
-  left: 80px;
   margin-top: 100px;
   margin-left: 80px;
   font-style: normal;
@@ -32,9 +30,9 @@
   z-index: 1;
 }
 
-span {
+/* span {
   display: block;
-}
+} */
 
 .about__content {
   position: relative;
@@ -50,7 +48,7 @@ span {
 
 .about__paragraph {
   margin: 0;
-  font-family: Noto serif;
+  font-family: "Noto Serif", "Times New Roman";
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -59,8 +57,8 @@ span {
 
 .about__circle {
   position: absolute;
-  left: -192px;
-  top: -200px;
+  left: -129px;
+  top: -152px;
   width: 495px;
   height: 495px;
   border-radius: 50%;

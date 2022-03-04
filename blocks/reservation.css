@@ -26,11 +26,7 @@
 
 .form__fieldset {
   border: none;
-  border-bottom: 1px solid #cfcfcf;
-}
-
-.form__fieldset:last-of-type {
-  border: none;
+  padding: 0px;
 }
 
 .form__label {
@@ -43,11 +39,13 @@
   line-height: 20px;
 }
 
-.form__label[for="terms"] {
-  display: flex;
-  flex-direction: row;
-  align-items: baseline;
-  justify-content: center;
+.form__label:first-of-type {
+  margin-top: 0px;
+}
+
+.form__label_type_checkbox {
+  margin-bottom: 0;
+  text-align: center;
   gap: 12px;
 }
 
@@ -67,10 +65,6 @@
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
-}
-
-.form__input[type="date"]::placeholder {
-  color: #000000;
 }
 
 .form__button {
@@ -97,5 +91,6 @@
 
 .form__checkbox {
   border-radius: 2px;
-  size: 20px;
+  height: 20px;
+  width: 20px;
 }

@@ -7,16 +7,19 @@
   padding-right: 80px;
 }
 
-.nav__link {
+.nav__links {
   display: flex;
   align-items: flex-end;
   column-gap: 20px;
-  text-decoration: none;
+}
+
+.nav__link {
   color: #000000;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+  text-decoration: none;
 }
 
 .nav__link:hover {
