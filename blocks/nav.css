@@ -2,15 +2,15 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  padding-left: 30px;
-  padding-top: 30px;
-  padding-right: 80px;
+  margin-right: 80px;
 }
 
 .nav__links {
   display: flex;
   align-items: flex-end;
   column-gap: 20px;
+  border: 30px;
+  margin-top: 30px;
 }
 
 .nav__link {

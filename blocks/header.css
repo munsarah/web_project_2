@@ -15,6 +15,8 @@
   font-weight: 500;
   font-size: 60px;
   line-height: 72px;
+  position: relative;
+  z-index: 1;
 }
 
 .header__span-accent {
@@ -32,11 +34,13 @@
   margin-bottom: 0;
   margin-left: 80px;
   width: 680px;
-  font-family: Noto serif;
+  font-family: "Noto serif", "Times New Roman";
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
+  position: relative;
+  z-index: 1;
 }
 
 .header__image {
@@ -45,7 +49,7 @@
   margin: 0;
   max-width: 650px;
   position: absolute;
-  z-index: 1;
+  z-index: 0;
 }
 
 .header__footer {

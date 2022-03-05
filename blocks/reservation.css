@@ -43,9 +43,10 @@
   margin-top: 0px;
 }
 
-.form__label_type_checkbox {
+.form__label_type-checkbox {
+  display: flex;
   margin-bottom: 0;
-  text-align: center;
+  justify-content: center;
   gap: 12px;
 }
 

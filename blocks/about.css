@@ -28,11 +28,8 @@
   font-size: 44px;
   line-height: 52px;
   z-index: 1;
+  max-width: 285px;
 }
-
-/* span {
-  display: block;
-} */
 
 .about__content {
   position: relative;
@@ -59,8 +56,8 @@
   position: absolute;
   left: -129px;
   top: -152px;
-  width: 495px;
-  height: 495px;
+  width: 425px;
+  height: 425px;
   border-radius: 50%;
   background-color: #2f80ed;
   z-index: 0;
